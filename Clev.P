@@ -1,0 +1,9 @@
+flet create my_flet_app <Clev.P>
+import flet as ft,
+def main(page: ft.Page):
+page.add(ft.SafeArea)
+
+ft.app(main)
+  pip install flet
+flet run counter.py
+flet run --web counter.py
